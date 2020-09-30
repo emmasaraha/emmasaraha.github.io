@@ -1,0 +1,124 @@
+body {
+  font-family: 'raleway';
+  padding: 20px;
+  background: #ccc5b9;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.nav a{
+  display:inline-block;
+  padding:10px;
+}
+
+/* unvisited link */
+a:link {
+  color:#eb5e28;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #eb5e28;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #403d39;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #eb5e28;
+  text-decoration: none;
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: #252422;
+  border-style: solid;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.body
+{
+  font-family:Arial;
+  padding:50px 0;
+}
+h1
+{
+  color:#fffcf2;
+  text-align:center;
+  padding: 25px 25px;
+  letter-spacing:2px;
+}
+h2
+{
+  color:#ccc5b9;
+  text-transform:uppercase;
+  text-align:center;
+  padding:10px 10px;
+  letter-spacing:5px;
+  
+}
+
+h3 {
+  text-align: center;
+}
+
+	p
+{
+  font-size:16px;
+   line-height:20px;
+     padding:0px 20px;
+}
+	
+	
+	.container{
+    width:100%;
+    margin:5px 100px auto;
+    display:flex;
+    }
+	
+	.columns {margin:0 50px 100px;
+    columns: center;
+    box-shadow:0 1px 3px rgb(0,0,0,12),0 1px 3px rgb(0,0,0,24);
+	  background:#eb5e28;
+    border-radius:10px;
+    flex-basis:33%;
+  }
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: #eb5e28;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%; }
+      .container {
+        flex-direction: center column;
+        padding: 50px;
+  }
+}
