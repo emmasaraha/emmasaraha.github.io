@@ -1,14 +1,14 @@
 var randomlinks = [];
 randomlinks[0]="/meme-articles/meme-article-1.html";
-randomlinks[1]="/index.html";
-randomlinks[2]="/index.html";
-randomlinks[3]="/index.html";
+randomlinks[1]="/meme-articles/meme-article-2.html";
+randomlinks[2]="/meme-articles/meme-article-3.html";
+randomlinks[3]="/meme-articles/meme-article-2.html";
 randomlinks[4]="/meme-articles/meme-article-1.html";
-randomlinks[5]="/index.html";
+randomlinks[5]="/meme-articles/meme-article-3.html";
 randomlinks[6]="/meme-articles/meme-article-1.html";
-randomlinks[7]="/index.html";
-randomlinks[8]="/index.html";
-randomlinks[9]="/index.html";
+randomlinks[7]="/meme-articles/meme-article-2.html";
+randomlinks[8]="/meme-articles/meme-article-3.html";
+randomlinks[9]="/meme-articles/meme-article-2.html";
 randomlinks[10]="/meme-articles/meme-article-1.html";
 
 function randomlink(){

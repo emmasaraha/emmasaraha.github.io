@@ -108,6 +108,86 @@ border-color: #403d39 !important;
 transition: all 0.3s ease 0s;
 }
 
+.section-meme {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .card-meme {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+  
+    border-radius: 18px;
+    background: white;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.9);
+    font-family: 'raleway';
+    text-align: center;
+  }
+  .card-image {
+    grid-area: image;
+    background: url("img1.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  .card-text-meme {
+    grid-area: text;
+    margin: px;
+  }
+  
+  .card-text-meme p {
+    color: #403d39;
+    font-size:15px;
+    font-weight: 300;
+    font-family: 'raleway';
+  }
+  .card-text-meme h1 {
+    margin-top:0px;
+    font-size:30px;
+    text-align: center;
+  }
+  .card-text-meme h2 {
+    margin-top:0px;
+    font-size:24px;
+  }
+  .card-stats-meme {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #403d39
+  
+  }
+  .card-stats-meme .stat-meme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    color: white;
+    padding:10px;
+  }
+  .card-meme:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  .card-meme {
+  
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
+
+/*Meet your Makers CSS*/  
+
 .card-title {
     color: #403d39;
     font-weight: bolder;
@@ -155,6 +235,8 @@ height: 200px;
 .title {
     text-decoration: underline;
 }
+
+/*Media query*/
 
 @media screen and (max-width: 768px) {
     .holdingcontainer{
