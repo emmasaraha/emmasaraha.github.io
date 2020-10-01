@@ -3,6 +3,8 @@ body {
     background-color: #ccc5b9 !important;
 }
 
+/*header styling*/
+
 ul {
     width: 100%;
     display: flex;
@@ -32,25 +34,26 @@ ul {
 /* unvisited link */
 a:link {
     color:#eb5e28;
-    text-decoration: none;
+    text-decoration: none !important;
   }
   
   /* visited link */
   a:visited {
     color: #eb5e28;
-    text-decoration: none;
+    text-decoration: none !important;
   }
   
   /* mouse over link */
   a:hover {
     color: #403d39 !important;
     text-decoration: none !important;
+    background: none !important;
   }
   
   /* selected link */
   a:active {
     color: #eb5e28;
-    text-decoration: none;
+    text-decoration: none !important;
   }
 
   
@@ -108,6 +111,8 @@ border-color: #403d39 !important;
 transition: all 0.3s ease 0s;
 }
 
+/* Meme of the day card*/
+
 .section-meme {
     width: 100vw;
     height: 100vh;
@@ -118,12 +123,11 @@ transition: all 0.3s ease 0s;
   }
   .card-meme {
     display: grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 280px;
     grid-template-rows: 210px 210px 80px;
-    grid-template-areas: "image" "text" "stats";
-  
+    grid-template-areas: "image" "text" "stats";  
     border-radius: 18px;
-    background: white;
+    background: #fffcf2;
     box-shadow: 15px 15px 30px rgba(0,0,0,0.9);
     font-family: 'raleway';
     text-align: center;
@@ -138,6 +142,7 @@ transition: all 0.3s ease 0s;
   .card-text-meme {
     grid-area: text;
     margin: px;
+    background-color: #fffcf2;
   }
   
   .card-text-meme p {
@@ -234,6 +239,12 @@ height: 200px;
 }
 .title {
     text-decoration: underline;
+}
+
+/*footer*/
+
+footer {
+  text-align: center;
 }
 
 /*Media query*/
