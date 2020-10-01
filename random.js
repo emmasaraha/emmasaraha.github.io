@@ -12,5 +12,5 @@ randomlinks[9]="/meme-articles/meme-article-2.html";
 randomlinks[10]="/meme-articles/meme-article-1.html";
 
 function randomlink(){
-  window.open(randomlinks[Math.floor(Math.random()*randomlinks.length)]);
+  window.open(randomlinks[Math.floor(Math.random()*randomlinks.length)],'_self');
 }
